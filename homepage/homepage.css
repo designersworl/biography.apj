@@ -1,0 +1,95 @@
+body{
+	background-image: url("http://1.bp.blogspot.com/-bVjqxT1dMyo/UZEdF3W0PnI/AAAAAAAAEpg/eb-qPzYD-HM/s1600/MINUTEMAN+III.jpg");
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+}
+
+h1{
+  color:white;
+  font-family:Lucida Handwriting;
+  padding-top:40%;
+  padding-left:10%;
+}
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 40px;
+  padding-top:10%;
+  padding-left:10%;
+}
+.waviy span {
+  font-family: Lucida Handwriting;
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+
+nav{
+  padding-top:25%;
+}
+
+hr{
+  margin-left:2%;
+  width:60%
+ 
+}
+
+nav a{
+	box-sizing:border-box;
+	display:inline-block;
+	height:60px;
+	color: #FFFFFF;
+	font-family:papyrus;
+  font-weight:900;
+	text-decoration: none;
+	margin:1% 5% 1% 0;
+	padding:1% 5%;
+	border-radius: 25px;
+  border-bottom:2px solid blue;
+  margin-left:4%;
+
+}
+
+
+@media only screen and (min-width: 350px) {
+  body{
+  background-size:100% 160%;
+}
+  nav{
+    padding-top:60%;
+  }
+
+  .waviy{
+    font-size:30px;
+  }
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  body{
+  background-size:100% 100%;
+}
+  
+  nav{
+    padding-top:25%;
+  }
+
+  .waviy{
+    font-size:40px;
+  }
+  
+}
+
+
